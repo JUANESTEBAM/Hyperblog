@@ -7,13 +7,26 @@ body{
     padding: 0;
 }
 
-#cabebcera{
-    background: blue;
-    box-shadow: 0px 5px 50px 0px rgba(0,0,0,0.05);
+#cabecera{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    padding: 10px;
+    background: #33A; 
     color: white;
     font-weight: bold;
-    margin: 0;
-    padding: 0.sem;
+    margin: -16px;
+    padding-top: 20px;
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 
 #container{
